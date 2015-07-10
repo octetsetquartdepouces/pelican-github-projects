@@ -3,7 +3,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-version = __import__('pelican_github').__version__
+version = __import__('pelican-github-projects').__version__
 download_url = 'https://github.com/octetsetquartdepouces/pelican-github-projects/archive/{}.zip'.format(version)
 
 setup(name='pelican-github-projects',
